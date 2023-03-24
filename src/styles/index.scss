@@ -1,0 +1,36 @@
+@import './variables.scss';
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $main-font;
+    font-size: $main-font-size;
+    color: $green;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow-x: hidden;
+}
+.block {
+    display: block!important;
+}
+.hide {
+    display: none!important;
+}
+.lock {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+

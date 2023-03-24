@@ -1,0 +1,26 @@
+{
+  "name": "inwood",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gitart-scroll-carousel": "^1.2.4",
+    "normalize.css": "^8.0.1",
+    "swiper": "^9.1.1",
+    "v-scroll-lock": "^1.3.1",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.59.3",
+    "sass-loader": "^13.2.0",
+    "vite": "^4.1.4"
+  }
+}
